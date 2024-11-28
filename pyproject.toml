@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ft-linear-regression"
+version = "0.1.0"
+description = ""
+authors = ["Killian Morin <kmorin@student.42lausanne.ch>"]
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.9.2"
+print-color = "^0.4.6"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
