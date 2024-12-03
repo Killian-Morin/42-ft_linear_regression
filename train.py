@@ -37,7 +37,7 @@ def data_extraction() -> pd.DataFrame:
     print("Global shape:", data_frame.shape, tag='data', tag_color='m', color='w')
 
     data_frame.plot.scatter(x="km", y="price", c='b')
-    plt.title("Dataset: Mileage vs Price (pandas)")
+    plt.title("Dataset: Mileage vs Price")
     plt.xlabel("Mileage (km)")
     plt.ylabel("Price ($)")
     plt.xlim(0, 250000)
